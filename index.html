@@ -6,9 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Autor" content="Rafael Giner Gomez">
     <title>Racing Game</title>
+    <link href="css/estilo.css" rel="stylesheet">
 </head>
 <body>
-    Mi primer juego de carreras con JS
+
+    <section id="1">
+        <div class="pantallaInicio">
+            <img class="pic" onClick='cambiarPantalla("2")' src="img/Inicio.jpg" alt="pantallaInicio" />
+        </div>
+    </section>
+
+    <section id="2" style="display:none">
+        <div class="pantallaIntro">
+            <video src="/vid/Intro2.mp4" autoplay muted width="960" height="540"></video>
+            <img class="startbutton" onClick='cambiarPantalla("3")' src="img/start2.png" alt="StartButton" />
+        </div>
+    </section>
+
+    <section id="3" style="display:none">
+        <div class="pantallaSeleccion">
+            <img class="pic" onClick='seleccionarCoche("mercecdes")' src="img/mercedes.jpg" alt="Mercedes" />
+            <img class="pic" onClick='seleccionarCoche("redbull")' src="img/Redbull.jpg" alt="Redbull" />
+            <img class="pic" onClick='seleccionarCoche("mclaren")' src="img/mclaren.jpg" alt="Mclaren" />
+            <img class="pic" onClick='seleccionarCoche("ferrari")' src="img/ferrari.png" alt="Ferrari" />
+        </div>
+    </section>
+
+    <section id="4" style="display:none">
+        <div class="diapositiva4">
+            <img class="pic" onClick='cambiarPantalla("1")' src="img/robot.jpg" alt="robot" />
+        </div>
+    </section>
 
     <script src="js/main.js"></script>
 </body>

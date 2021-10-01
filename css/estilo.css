@@ -1,0 +1,77 @@
+
+body {
+    margin: 0;
+}
+
+.pantallaInicio {
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;  
+}
+
+.pantallaIntro {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pantallaSeleccion {
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 25em;
+    width: 70em;
+}
+
+.startbutton{
+    height: 2em;
+}
+
+.pic {
+    height: 18em;
+    display: flex;
+    align-items: center;
+}
+
+/* *{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorGeneral {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 30em;
+    width: 80em;
+    background-color: rgb(145, 163, 145);
+}
+
+#fase1{
+    background-color: darkblue;
+}
+#fase2{
+    background-color: darkcyan;
+}
+#fase3{
+    background-color: darkgoldenrod;
+}
+#fase4{
+    background-color: darkgreen;
+}
+#fase5{
+    background-color: darkmagenta;
+}
+
+.contenedorCoche {
+    height: 10em;
+    width: 15em;
+} */
