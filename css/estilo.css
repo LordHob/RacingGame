@@ -11,6 +11,11 @@ body {
     align-items: center;
     height: 100vh;  
 }
+.inicio{
+    height: 20em;
+    display: flex;
+    align-items: center;
+}
 
 .pantallaIntro {
     background-color: black;
@@ -27,7 +32,7 @@ body {
     justify-content: space-around;
     align-items: center;
     height: 25em;
-    width: 70em;
+    width: 60em;
 }
 
 .startbutton{
@@ -35,7 +40,7 @@ body {
 }
 
 .pic {
-    height: 18em;
+    height: 9em;
     display: flex;
     align-items: center;
 }
