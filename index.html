@@ -30,21 +30,27 @@
         <div class="pantallaSeleccion">
             <img class="pic" onClick='seleccionarCoche("ferrari")' src="img/ferrari.png" alt="Ferrari" />
             <img class="pic" onClick='seleccionarCoche("mclaren")' src="img/mclaren.jpg" alt="Mclaren" />
-            <img class="pic" onClick='seleccionarCoche("mercecdes")' src="img/mercedes.jpg" alt="Mercedes" />
-            <img class="pic" onClick='seleccionarCoche("redbull")' src="img/Redbull.jpg" alt="Redbull" />
+            <img class="pic" onClick='seleccionarCoche("mercedes")' src="img/mercedes.jpg" alt="Mercedes" />
+            <img class="pic" onClick='seleccionarCoche("Redbull")' src="img/Redbull.jpg" alt="Redbull" />
         </div>
         <div class="pantallaSeleccion">
-            <img class="pic" onClick='seleccionarCoche("williams")' src="img/Williams02.jpg" alt="Williams" />
-            <img class="pic" onClick='seleccionarCoche("alfaromeo")' src="img/AlfaRomeo01.jpg" alt="AlfaRomeo" />
-            <img class="pic" onClick='seleccionarCoche("alpine")' src="img/Alpine01.jpg" alt="Alpine" />
-            <img class="pic" onClick='seleccionarCoche("astonmartin")' src="img/AstonMartin01.jpg" alt="AstonMartin" />
+            <img class="pic" onClick='seleccionarCoche("Williams02")' src="img/Williams02.jpg" alt="Williams" />
+            <img class="pic" onClick='seleccionarCoche("AlfaRomeo01")' src="img/AlfaRomeo01.jpg" alt="AlfaRomeo" />
+            <img class="pic" onClick='seleccionarCoche("Alpine01")' src="img/Alpine01.jpg" alt="Alpine" />
+            <img class="pic" onClick='seleccionarCoche("AstonMartin01")' src="img/AstonMartin01.jpg" alt="AstonMartin" />
         </div>
     </section>
 
     <section id="4" style="display:none">
-        <div class="diapositiva4">
-            <img class="pic" onClick='cambiarPantalla("1")' src="img/robot.jpg" alt="robot" />
+        <div class="pantallaCarrera">
+            <img class="pic" id="coche0" src="" alt="Coche0" />
+            <img class="pic" id="coche1" src="" alt="Coche1" />
         </div>
+        <div class="ContadorDistancia">
+            <div id="contadorCoche0">Metros coche0:</div>
+            <div id="contadorCoche1">Metros coche1:</div>
+        </div>
+            <img class="pic" onClick='cambiarPantalla("1")' />
     </section>
 
     <script src="js/main.js"></script>

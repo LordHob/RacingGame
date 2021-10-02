@@ -1,3 +1,5 @@
+// FUNCION PARA CAMBIAR PANTALLA
+
 const cambiarPantalla = (pantallaDestino) => {
 
     // Primer paso generamos array con todas la fases
@@ -15,18 +17,31 @@ const cambiarPantalla = (pantallaDestino) => {
 }
 
 
-
-
-// Selectcar(ferrari) => {
-
-//     let fasewant = "fase" + arg_O;
-//     let arrFases = ["fase1", "fase2", "fase3", "fase4"]; 
-//     arrFases = arrFases.filter(val => !ferrari.includes(val));
-//     document.getElementById(ferrari).style.display = "block";
-//     for (let _f of arrFases) {
-//         document.getElementById(_f).style.display = "none";
-//     }
-// }
-
 // Crear array donde vas metiendo los coches que vas seleccionando hasta que se llena la array
 
+let arrayDeCoches = ["", ""];
+var indice = 0;
+
+seleccionarCoche = (coche) => {
+    arrayDeCoches[indice] = coche;
+    document.getElementById("coche" +indice).src="img/"+coche+".jpg";
+    indice++;
+    checkIndice();
+}
+
+var MetrosRecorridosCoche0 = 0;
+var MetrosRecorridosCoche1 = 0;
+
+function checkIndice() {
+    if (indice == 2) {  
+        cambiarPantalla("4");
+        var IntervaloDistancia = window.setInterval(function () {
+            MetrosRecorridosCoche0 += Math.random() * (100 - 50) + 50;
+            MetrosRecorridosCoche1 += Math.random() * (100 - 50) + 50;
+            if (MetrosRecorridosCoche0 >= 3000 || MetrosRecorridosCoche1 >= 3000)
+                clearInterval(IntervaloDistancia)
+            document.getElementById("contadorCoche0").innerHTML = "Metros Coche 0: " + MetrosRecorridosCoche0.toFixed(2);
+            document.getElementById("contadorCoche1").innerHTML = "Metros Coche 1: " + MetrosRecorridosCoche1.toFixed(2);
+        }, 1000);
+    }
+}
