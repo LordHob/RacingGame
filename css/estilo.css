@@ -4,17 +4,18 @@ body {
 }
 
 .pantallaInicio {
-    background-color: blue;
+    background-color: black;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     height: 100vh;  
 }
-.inicio{
-    height: 20em;
+.inicio:hover{
+    height: 10em;
     display: flex;
     align-items: center;
+    background-color: black;
 }
 
 .pantallaIntro {
@@ -23,26 +24,29 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    height: 100vh;
 }
 
 .pantallaSeleccion {
-    background-color: brown;
+    background-color: black;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    height: 25em;
-    width: 60em;
+    height: 50vh;
 }
 
-.startbutton{
+.startbutton:hover{
     height: 2em;
 }
 
 .pic {
-    height: 9em;
+    height: 12em;
     display: flex;
     align-items: center;
+    border-style: ridge;
+    border-width: 0.5em;
+    border-color: brown;
 }
 
 /* *{
