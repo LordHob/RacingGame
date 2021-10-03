@@ -24,20 +24,18 @@
     </section>
 
     <section id="3" style="display:none">
-        <div>
-            
-        </div>
         <div class="pantallaSeleccion">
-            <img class="pic" onClick='seleccionarCoche("ferrari")' src="img/ferrari.png" alt="Ferrari" />
-            <img class="pic" onClick='seleccionarCoche("mclaren")' src="img/mclaren.jpg" alt="Mclaren" />
-            <img class="pic" onClick='seleccionarCoche("mercedes")' src="img/mercedes.jpg" alt="Mercedes" />
+            <img class="pic" onClick='seleccionarCoche("Ferrari")' src="img/Ferrari.jpg" alt="Ferrari" />
+            <img class="pic" onClick='seleccionarCoche("Mclaren")' src="img/Mclaren.jpg" alt="Mclaren" />
+            <img class="pic" onClick='seleccionarCoche("Mercedes")' src="img/Mercedes.jpg" alt="Mercedes" />
             <img class="pic" onClick='seleccionarCoche("Redbull")' src="img/Redbull.jpg" alt="Redbull" />
         </div>
+        <div class="selectyourcar">SELECT YOUR CARS</div>
         <div class="pantallaSeleccion">
-            <img class="pic" onClick='seleccionarCoche("Williams02")' src="img/Williams02.jpg" alt="Williams" />
-            <img class="pic" onClick='seleccionarCoche("AlfaRomeo01")' src="img/AlfaRomeo01.jpg" alt="AlfaRomeo" />
-            <img class="pic" onClick='seleccionarCoche("Alpine01")' src="img/Alpine01.jpg" alt="Alpine" />
-            <img class="pic" onClick='seleccionarCoche("AstonMartin01")' src="img/AstonMartin01.jpg" alt="AstonMartin" />
+            <img class="pic" onClick='seleccionarCoche("Williams")' src="img/Williams.jpg" alt="Williams" />
+            <img class="pic" onClick='seleccionarCoche("AlfaRomeo")' src="img/AlfaRomeo.jpg" alt="AlfaRomeo" />
+            <img class="pic" onClick='seleccionarCoche("Alpine")' src="img/Alpine.jpg" alt="Alpine" />
+            <img class="pic" onClick='seleccionarCoche("AstonMartin")' src="img/AstonMartin.jpg" alt="AstonMartin" />
         </div>
     </section>
 
@@ -47,10 +45,26 @@
             <img class="pic" id="coche1" src="" alt="Coche1" />
         </div>
         <div class="ContadorDistancia">
-            <div id="contadorCoche0">Metros coche0:</div>
-            <div id="contadorCoche1">Metros coche1:</div>
+            <div id="contadorCoche0">Metros coche1:</div>
+            <div id="contadorCoche1">Metros coche2:</div>
         </div>
-            <img class="pic" onClick='cambiarPantalla("1")' />
+        <div>
+            <button id="botonResultado" style="display:none" type="button" onClick='cambiarPantalla("5")'>Resultado</button>
+        </div>    
+    </section>
+
+    <section id="5" style="display:none">
+        <div>
+            <div>
+                EL GANADOR ES
+            </div>
+            <div>
+                <img class="pic" id="CocheGanador" src="" alt="CocheGanador" />
+            </div>
+            <div>
+                <button id="RepetirCarrera" type="button" onClick='ResetearJuego()'>REPETIR</button>
+            </div>
+        </div>
     </section>
 
     <script src="js/main.js"></script>
