@@ -14,7 +14,6 @@ const cambiarPantalla = (pantallaDestino) => {
     }
 }
 
-
 // Crear array donde vas metiendo los coches que vas seleccionando hasta que se llena la array //
 
 let arrayDeCoches = ["", ""];

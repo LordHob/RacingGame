@@ -69,16 +69,50 @@ body {
     border-width: 0.5em;
     border-color: brown;
 }
-.ContadorDistancia{
+.contadorDistancia{
     background-color: black;
     color: red;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: top;
+    height: 30vh;
+}
+.espacioVacio{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     height: 20vh;
 }
-
+.theWinnerIs{
+    background-color: black;
+    color: red;
+    font-size: 2em;
+    font-weight: bold;
+    font-family:Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10rem;
+}
+.cocheGanador{
+    background-color: black;
+    height: 20em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#CocheGanador{
+    height: 15em;
+}
+.restart{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+}
 
 .startbutton:hover{
     height: 2em;
