@@ -32,7 +32,7 @@ function seleccionarCoche (coche) {
 
 var MetrosRecorridosCoche0 = 0;
 var MetrosRecorridosCoche1 = 0;
-var MetrosARecorrer = 500;
+var MetrosARecorrer = 200;
 
 // ----- Función de carrera ----- //
 // ----- Comprueba que los dos coches están seleccionados y gana el primero que supera la distancia establecida ----- //
@@ -53,8 +53,8 @@ function checkIndice() {
                     document.getElementById("CocheGanador").src = "img/" + arrayDeCoches[0] + ".jpg";
                 }
             }   
-            document.getElementById("contadorCoche0").innerHTML = "Metros Coche 1: " + MetrosRecorridosCoche0.toFixed(2);
-            document.getElementById("contadorCoche1").innerHTML = "Metros Coche 2: " + MetrosRecorridosCoche1.toFixed(2);
+            document.getElementById("contadorCoche0").innerHTML = "Metros recorridos: " + MetrosRecorridosCoche0.toFixed(2);
+            document.getElementById("contadorCoche1").innerHTML = "Metros recorridos: " + MetrosRecorridosCoche1.toFixed(2);
         }, 1000);
     }
 }

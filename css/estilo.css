@@ -38,13 +38,18 @@ body {
 .selectyourcar{
     background-color: black;
     color: red;
+    font-family: "Formula1-Bold";
     font-size: 2em;
-    font-weight: bold;
-    font-family:Helvetica, sans-serif;
+    font-weight: bold;  
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+@font-face {
+    font-family:"Formula1-Bold";
+    src: url("/fonts/Formula1-Bold.ttf");
+}
+
 .pantallaCarrera{
     background-color: black;
     display: flex;
@@ -73,6 +78,8 @@ body {
     background-color: black;
     color: red;
     display: flex;
+    font-family: "Formula1-Bold";
+    font-size: 1.5em;
     flex-direction: row;
     justify-content: space-around;
     align-items: top;
@@ -90,7 +97,7 @@ body {
     color: red;
     font-size: 2em;
     font-weight: bold;
-    font-family:Helvetica, sans-serif;
+    font-family: "Formula1-Bold";
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -113,11 +120,9 @@ body {
     align-items: center;
     height: 20vh;
 }
-
 .startbutton:hover{
     height: 2em;
 }
-
 .pic {
     height: 10em;
     display: flex;
