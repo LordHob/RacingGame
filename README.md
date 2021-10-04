@@ -9,7 +9,7 @@
 	Fecha de entrega: 4 de octubre de 2021
 	Autor: Rafael Giner Gómez
 	
-	---> Dirección del github pages
+	https://lordhob.github.io/RacingGame/
 
 
 ### Editor y tecnologías usadas:
