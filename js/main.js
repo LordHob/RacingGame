@@ -59,7 +59,7 @@ function checkIndice() {
     }
 }
 
-// ----- Función de reseto del juego ----- //
+// ----- Función de reseteo del juego ----- //
 
 function ResetearJuego() {
     indice = 0;
