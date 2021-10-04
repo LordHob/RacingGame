@@ -49,7 +49,7 @@ Al presionar en el botón "Resultados" pasaremos a la última pantalla, en la qu
 
 ![imagen](https://user-images.githubusercontent.com/90702425/135828220-b28597b2-547d-4e96-88e5-85814ec5083b.png)
 
-Si presionamos en el botón inferior "Restart Race" el juego volverá a la pantalla inicial restaurando todos los resultados anteriores
+Si presionamos en el botón inferior "Restart Race" el juego volverá a la pantalla inicial restaurando todos los resultados anteriores.
 
 
 
