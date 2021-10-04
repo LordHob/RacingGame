@@ -32,7 +32,7 @@ function seleccionarCoche (coche) {
 
 var MetrosRecorridosCoche0 = 0;
 var MetrosRecorridosCoche1 = 0;
-var MetrosARecorrer = 200;
+var MetrosARecorrer = 3000;
 
 // ----- Función de carrera ----- //
 // ----- Comprueba que los dos coches están seleccionados y gana el primero que supera la distancia establecida ----- //
