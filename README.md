@@ -3,13 +3,13 @@
 
 ### Bootcamp Racing Game
 
+https://lordhob.github.io/RacingGame/
+
 	Diseño de juego de carreras realizado para la Bootcamp Full Stack Developer VLC XIII
 	
 	Fecha de inicio: 30 de septiembre de 2021
 	Fecha de entrega: 4 de octubre de 2021
 	Autor: Rafael Giner Gómez
-	
-	https://lordhob.github.io/RacingGame/
 
 
 ### Editor y tecnologías usadas:
