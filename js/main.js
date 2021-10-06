@@ -32,7 +32,7 @@ function seleccionarCoche (coche) {
 
 var MetrosRecorridosCoche0 = 0;
 var MetrosRecorridosCoche1 = 0;
-var MetrosARecorrer = 3000;
+var MetrosARecorrer = 1000;
 
 // ----- Función de carrera ----- //
 // ----- Comprueba que los dos coches están seleccionados y gana el primero que supera la distancia establecida ----- //
@@ -61,7 +61,7 @@ function checkIndice() {
 
 // ----- Función de reseteo del juego ----- //
 
-function ResetearJuego() {
+function resetearJuego() {
     indice = 0;
     MetrosRecorridosCoche0 = 0;
     MetrosRecorridosCoche1 = 0;
