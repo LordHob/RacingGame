@@ -32,7 +32,7 @@ function seleccionarCoche (coche) {
 
 var MetrosRecorridosCoche0 = 0;
 var MetrosRecorridosCoche1 = 0;
-var MetrosARecorrer = 1000;
+var MetrosARecorrer = 3000;
 
 // ----- Función de carrera ----- //
 // ----- Comprueba que los dos coches están seleccionados y gana el primero que supera la distancia establecida ----- //
@@ -41,8 +41,8 @@ function checkIndice() {
     if (indice == 2) {  
         cambiarPantalla("4");
         var IntervaloDistancia = window.setInterval(function () {
-            MetrosRecorridosCoche0 += Math.random() * (100 - 50) + 50;
-            MetrosRecorridosCoche1 += Math.random() * (100 - 50) + 50;
+            MetrosRecorridosCoche0 += Math.random() * (200 - 50) + 50;
+            MetrosRecorridosCoche1 += Math.random() * (200 - 50) + 50;
             if (MetrosRecorridosCoche0 >= MetrosARecorrer || MetrosRecorridosCoche1 >= MetrosARecorrer) {
                 document.getElementById("botonResultado").style.display = "block";
                 clearInterval(IntervaloDistancia);
